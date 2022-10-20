@@ -1,17 +1,25 @@
 
-add2(10,40,10);
+
 
 // create function and 3 parameter for adding and devide for multiplication
-function acc(accountname,number){
-  result=accountname +number;
+function acc(accountname,num){
+  result=accountname +num;
 console.log(result)
+console.log(typeof console)
+console.log(typeof log)
+console.log(typeof console.log)
+
+
 }
 acc("Abdur Rahim",10897766464);
+
+
 // create function and 4 parameter for  and devide for multiplication
 function avg1(num1,num2,num3,num4){
   multiplication=num1*num2*num3*num4;
   result=multiplication/4;
   console.log(result)
+ 
 }
 num1=10;num2=20;num3=30; num4=40;
 avg1(num1,num2,num3,num4);
@@ -35,7 +43,21 @@ function avg (num1,num2,num3,num4){
    console.log(res)
    modulas=res%4;
    console.log(modulas)
+  
+  
 
 }
 num1=10;num2=20;num3=30; num4=40;
 avg(num1,num2,num3,num4);
+// create a function multiple first 2 numbers and divide by last number
+function mul(a,b,c){
+  multi=a*b;
+  result=multi/c;
+  console.log(result)
+}
+mul(10,20,5);
+// fractice
+x=10;
+y=x;
+console.log(x)
+
