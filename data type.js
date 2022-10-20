@@ -7,7 +7,8 @@ function acc(accountname,num){
 console.log(result)
 console.log(typeof console)
 console.log(typeof log)
-console.log(typeof console.log)
+console.log(typeof console.log);
+console.log("More changes");
 
 
 }
